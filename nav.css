@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  border-bottom: 5px solid #e3c322;
+}
+
+.nav-link {
+  text-align: center;
+  padding: 40px;
+  font-size: 25px;
+}
+
+#nav-logo {
+  width: 100px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline
+}
