@@ -1,15 +1,15 @@
 footer {
   background-color: #e3c322;
   display: grid;
-  grid-template-columns: 4fr 1fr 1fr 1fr;
+  grid-template-columns: 4fr 4fr 1fr 1fr 1fr;
   position: absolute;
   bottom: 0px;
   width: 100%;
 }
 
 .footer-logo {
-  width: 80px;
-  padding: 10px;
+  width: 60px;
+  padding: 20px;
 }
 
 .footer-title {

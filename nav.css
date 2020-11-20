@@ -1,11 +1,29 @@
 body {
   margin: 0px;
+  font-family: Verdana, Geneva, sans-serif
 }
 
 nav {
   display: grid;
   grid-template-columns: 4fr 1fr 1fr 1fr;
   border-bottom: 5px solid #e3c322;
+}
+
+nav a:visited {
+  color: grey;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+nav a:active {
+  color: black;
+}
+
+nav a: {
+  text-decoration: none;
+  color: black;
 }
 
 .nav-link {
