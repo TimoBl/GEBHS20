@@ -5,28 +5,50 @@
 	<link rel="stylesheet" type="text/css" href="home.css">
 	<link rel="stylesheet" type="text/css" href="nav.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
 </head>
 <body>
 	<nav>
-		<a href="https://www.freelogodesign.org"><img id="nav-logo" src="pictures/logo.png"></a>
+		<a href="https://www.freelogodesign.org"><img id="nav-logo" src="pictures/new%20logo.png"></a>
 		<div class="nav-link"><a href="home.html">HOME</a></div>
 		<div class="nav-link"><a href="shop.html">SHOP</a></div>
 		<div class="nav-link"><a href="kontakt.html">KONTAKT</a></div>
 	</nav>
 	<article>
 		<h1>Kontakt</h1>
+    <div>
+        <p>
+        Zögern Sie nicht uns bei Fragen zu kontaktieren mit Ihrem Namen, E-mail Adresse und einer Nachricht!
+        </p>
+    
+        <form action="mailto:tinas.buchhaltung@hotmail.com" method="post" enctype="text/plain">
+            <label for="fname">Name</label>
+            <input class="border_kont" type="text" id="fname" name="name" placeholder="Ihr Name...">
+            <p></p>
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="email" placeholder="Ihre E-mail Adresse...">
+            <p></p>              
+            <label for="story">Nachricht:</label>
+            <textarea id="story" name="story" placeholder="Ihre Nachricht..." rows="4" cols="33">
+
+            </textarea>
+
+            <p></p> 
+            <input type="submit" value="Submit" class="button">
+        </form>
+    </div>
 	</article>
 	<footer>
 		<div class="footer-title"><h1>Die Buchhaltung</h1></div>
 		<div></div>
 		<div>
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class="footer-logo" src="pictures/facebook.png"></a>
+			<a href="https://www.facebook.com"><img class="footer-logo" src="pictures/facebook.png"></a>
 		</div>
 		<div>
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class="footer-logo" src="pictures/twitter.png"></a>
+			<a href="https://www.twitter.com"><img class="footer-logo" src="pictures/twitter.png"></a>
 		</div>
 		<div>
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class="footer-logo" src="pictures/instagram.png"></a>
+			<a href="https://www.instagram.com"><img class="footer-logo" src="pictures/instagram.png"></a>
 		</div>
 	</footer>
 </html>

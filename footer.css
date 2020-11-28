@@ -1,17 +1,21 @@
 footer {
-  background-color: #e3c322;
+  position: fixed;
+  left: 0;
   display: grid;
-  grid-template-columns: 4fr 4fr 1fr 1fr 1fr;
-  position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
+  grid-template-columns: 4fr 4fr 1fr 1fr 1fr;
+  background-color: #e3c322;
+  color: black;
+  
 }
 
 .footer-logo {
-  width: 60px;
-  padding: 20px;
+  width: 30px;
+  padding: 10px;
 }
 
 .footer-title {
 	padding: 10px;
+    font-size: 10px;
 }

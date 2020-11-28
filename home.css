@@ -1,3 +1,12 @@
 article {
-  margin: 30px;
+  margin: 60px;
+}
+
+.imgclass{
+    width="1000"; 
+}
+
+.img-books {
+  width: 700px;
+  padding: 10px;
 }
