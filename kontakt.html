@@ -21,23 +21,27 @@
         Zögern Sie nicht uns bei Fragen zu kontaktieren mit Ihrem Namen, E-mail Adresse und einer Nachricht!
         </p>
     
-        <form action="mailto:tinas.buchhaltung@hotmail.com" method="post" enctype="text/plain">
-            <label for="fname">Name</label>
-            <input class="border_kont" type="text" id="fname" name="name" placeholder="Ihr Name...">
-            <p></p>
-            <label for="lname">Email</label>
-            <input type="text" id="lname" name="email" placeholder="Ihre E-mail Adresse...">
-            <p></p>              
-            <label for="story">Nachricht:</label>
-            <textarea id="story" name="story" placeholder="Ihre Nachricht..." rows="4" cols="33">
+        <form>
 
-            </textarea>
-
-            <p></p> 
-            <input type="submit" value="Submit" class="button">
-        </form>
-    </div>
-	</article>
+<p>Name:<br /><input name="Nachname" type="text" size="35"
+maxlength="45"/></p>
+<p>E-Mail:<br /><input name="E-Mail" type="text" size="35"
+maxlength="45"/></p>
+<p><input type="radio" name="Feedback" value="Bestellung"
+checked="checked" />Bestellung
+<input type="radio" name="Feedback" value="Anfrage"/> Anfrage</p>
+            
+<p>Nachricht:<br /><textarea name="Bemerkung" rows="6"
+cols="35"> </textarea></p>
+<p><input type="checkbox" name="Newsletter" value="Newsletter"
+checked="checked" />Newsletter abonnieren</p>
+<p><input type="button" name="Submit" value="Submit" />
+<input type="button" name="Button" value="Cancel" /> </p>
+</form>
+        </div>
+            
+    </article>
+	
 	<footer>
 		<div class="footer-title"><h1>Tina's Buchhandlung</h1></div>
 		<div></div>
