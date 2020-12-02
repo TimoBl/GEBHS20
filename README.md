@@ -1,3 +1,3 @@
 # GEBHS20
 
-Gruppe 15
+Repository für das Gruppenprojekt in E-Business für Gruppe 15
